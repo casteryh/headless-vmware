@@ -39,7 +39,7 @@ case $1 in
     check_file
     vmrun reset ${vmfile} nogui
     ;;
-  status)
+  list)
     if [ -z $2 ]
       then
         vmrun list
