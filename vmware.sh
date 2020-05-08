@@ -48,6 +48,6 @@ case $1 in
     fi
     ;;
   *)
-    echo "Usage: possible options are: start | stop | suspend | pause | unpause | reset | status"
+    echo "Usage: possible options are: start | stop | suspend | pause | unpause | reset | list"
     exit 1
 esac
