@@ -3,9 +3,9 @@ local file_given
 file_given=false
 if [ -z $2 ]
   then
-    vmfile=$2
-  else
     vmfile=${VMFILE}
+  else
+    vmfile=$2
 fi
 function check_file {
   if [ -z ${vmfile} ]
