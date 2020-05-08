@@ -4,7 +4,7 @@ A shell script making it more convenient to use VMware in headless mode.
 
 ## Usage
 
-    vmware.sh operation [vmxfile]
+    vmware.sh start | stop | suspend | pause | unpause | reset [vmxfile]
 
 If the latter argument is omitted, it will use the environment variable `VMFILE` instead.
 
